@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> IBEIS </title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+<form enctype="multipart/form-data" action="" method="post" id="formid">
+<input name="files[]" type="file" id="file" multiple "/>
+<input type="submit" value="Upload File" name="submit" id="upload" class="upload"/>
+</form>
+<div>
+<br><br>
+<?php include "import.php"; ?>
+</div>
+</body>
+</html>
