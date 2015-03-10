@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="style_detect.css">
+<title> DETECT </title>
+</head>
+<body>
+
+Species Selector
+<select id="mySelect" onChange="hideImages()">
+  <option value="" style="display:none">Please select Speicies</option>
+  <option value="zebra">Zebra</option>
+  <option value="tiger">Tiger</option>
+  <option value="horse">Horse</option>
+</select>
+<br>
+<br>
+<br>
+<br>
+<div id="zebra1" class="zebras">
+    <img src="Zebra1.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="zebra2" class="zebras">
+    <img src="Zebra1.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="zebra3" class="zebras">
+    <img src="Zebra1.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="zebra4" class="zebras">
+    <img src="Zebra1.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="zebra5" class="zebras">
+    <img src="Zebra1.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="tiger1" class="tigers">
+    <img src="Tiger1.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="tiger2" class="tigers">
+    <img src="Tiger1.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="tiger3" class="tigers">
+    <img src="Tiger1.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="tiger4" class="tigers">
+    <img src="Tiger1.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="tiger5" class="tigers">
+    <img src="Tiger1.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="horse1" class="horses">
+    <img src="Horse.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="horse2" class="horses">
+    <img src="Horse.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="horse3" class="horses">
+    <img src="Horse.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="horse4" class="horses">
+    <img src="Horse.jpg" border=4 height=200 width=250>
+</div>
+
+<div id="horse5" class="horses">
+    <img src="Horse.jpg" border=4 height=200 width=250>
+</div>
+
+<script>
+    function hideImages()
+    {
+        var x = document.getElementById("mySelect").value;
+
+		if(x=="zebra")
+		{
+		document.getElementById("horse1").remove();
+		document.getElementById("horse2").remove();
+		document.getElementById("horse3").remove();
+		document.getElementById("horse4").remove();
+		document.getElementById("horse5").remove();
+
+		document.getElementById("tiger1").remove();
+		document.getElementById("tiger2").remove();
+		document.getElementById("tiger3").remove();
+		document.getElementById("tiger4").remove();
+		document.getElementById("tiger5").remove();
+
+
+		}
+
+		if(x=="tiger")
+		{
+		document.getElementById("horse1").remove();
+		document.getElementById("horse2").remove();
+		document.getElementById("horse3").remove();
+		document.getElementById("horse4").remove();
+		document.getElementById("horse5").remove();
+
+		document.getElementById("zebra1").remove();
+		document.getElementById("zebra2").remove();
+		document.getElementById("zebra3").remove();
+		document.getElementById("zebra4").remove();
+		document.getElementById("zebra5").remove();
+
+
+		}
+
+		if(x=="horse")
+		{
+		document.getElementById("zebra1").remove();
+		document.getElementById("zebra2").remove();
+		document.getElementById("zebra3").remove();
+		document.getElementById("zebra4").remove();
+		document.getElementById("zebra5").remove();
+
+		document.getElementById("tiger1").remove();
+		document.getElementById("tiger2").remove();
+		document.getElementById("tiger3").remove();
+		document.getElementById("tiger4").remove();
+		document.getElementById("tiger5").remove();
+
+
+		}
+
+
+    }
+</script>
+
+
+</body>
+</html>
