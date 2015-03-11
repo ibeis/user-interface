@@ -1,8 +1,13 @@
 
-Schedule and deliverable:
+Schedule and deliverables for the Wizard of Oz demo:
 
-  •	Draft identify and detect pages for the project -- Sat 03/07 by 3pm (estimate: 2hrs)
+  •	Draft identify and detect pages for the project -- Sat 03/07 by 3pm (estimate: 1hr)
   •	Render a table with images in the html file, identify.html -- Sun 03/08 by 6pm (estimate: 2hrs)
-  •	Add a drop down menu in detect.html, and remove unrelated image views according to the sub menu option selected -- Tues 03/10 by 6pm (estimate: 4hrs)
-  •	Add a complete button, tapping on which a confirmation dialog box appears on the screen -- Wed 03/11 by 9pm (estimate: 3hrs)
-  •	Integrate and merge code in the github repository -- Fri 03/13 by 10pm (estimate: 4hrs)
+  •	Add a drop down menu in detect.html, and write code for rendering images on the screen in grid view -- Mon 03/09 by 6pm (estimate: 2hrs)
+  •	Write code to remove unrelated image views according to the sub menu option selected -- Tues 03/10 by 6pm (estimate: 2hrs)
+  •	Add a complete button, tapping on which a confirmation dialog box appears on the screen -- Wed 03/11 by 9pm (estimate: 2hrs)
+  •	Unit testing of code -- Thurs 03/12 by 9pm (estimate: 2hrs)
+  •	Integration of code with other team members -- Fri 03/13 by 6pm (estimate: 4hrs)
+  • Merge code in the github repository -- Sat 03/14 by 2pm (estimate: 1hr)
+  • Integration testing with team members --  Sat 03/14 by 7pm (estimate: 2hrs)
+  • Solving bugs (if any) found during integration testing  --  Sun 03/15 by 1pm (estimate: 4hrs)
