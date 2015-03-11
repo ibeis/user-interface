@@ -1,0 +1,19 @@
+Task Break-Up and Schedule for the Low Ball Deliverable,
+
+Create a banner for displaying as page header (image file)-Friday 6/3/2015 by 8pm (estimate: 2 hours)
+
+Style for displaying tabs one at a time and hiding the rest, hover effects for tabs and styles for the active tab (IBEIS_Style.css) – Saturday 7/3/2015 by 9pm (estimate: 5 hours)
+
+JQuery Scripts for applying hovering, bringing tabs to focus on click and disabling other divisions accordingly (IBEIS_Script.js) – Sunday 8/3/2015 6pm (estimate: 6 hours)
+
+Rough layout with tabs for the home page (IBEIS_Home.html) – Monday 9/3/2015 9pm 8pm (estimate: 5 hours)
+
+Positioning the banner and aligning tabs according to the header in the Home Page (IBEIS_Home.html) – Tuesday 10/3/2015 9pm (estimate: 2 hours)
+
+Integration -Including the pages for importing and grouping created by team members into the corresponding tabs of the homepage – Wednesday 11/3/2015 9pm (estimate: 2 hours)
+
+Integration – Including the pages for detecting and identifying created by team members into the corresponding tabs of the home page – Thursday 12/3/2015 9pm (estimate: 2 hours)
+
+Integration Testing with the merged code for the low ball deliverable – Friday 13/3/2015 9pm (estimate: 2 hours)
+
+Bug Fixing – For the bugs that are discovered during integration testing – Saturday 14/3/2015 5pm (estimate: 3 hours)
