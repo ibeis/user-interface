@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> IDENTIFY </title>
 
+<link rel="stylesheet" type="text/css" href="style_identify.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="identify_script.js"></script>
+
+<title> IDENTIFY </title>
 </head>
 <body>
 
@@ -45,9 +50,18 @@
 	
 </table>
 
-<div>
 <br><br>
 
+<form method="post" action="http://localhost/complete.php" align="center">
+<input id="button" type="submit" value="COMPLETE"/>
+</form>
+
+<br><br>
+<div id="confirmDialogBox">
+    <div class="message"></div>
+    <span class="button yes">Yes</span>
+    <span class="button no">No</span>
 </div>
+
 </body>
 </html>
