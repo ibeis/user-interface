@@ -1,59 +1,67 @@
 <html>
 <head>
-	<link type="text/css" rel="stylesheet" href="IBEIS_style.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script type="text/javascript" src="IBEIS_script.js"> </script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-	<title>IBEIS</title>
+<link type="text/css" rel="stylesheet" href="IBEIS_style.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="IBEIS_script.js"> </script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<title>IBEIS</title>
 </head>
 
 <body bgcolor="#CCCCCC">
-
+<div id="contact"><a href="contact.html">Contact Us</a></div>
 <div id="logo"><img src="banner_combined.png" height="139" width="1280"/></div>
-
 <div class="tabs">
-	<ul class="tab-links">
-    	<li class="active"><a href="#tab1" class="link1">About</a></li>
-        <li><a href="#tab2" class="link2">Import</a></li>
-        <li><a href="#tab3" class="link3">Group</a></li>
-        <li><a href="#tab4" class="link4">Detect</a></li>
-        <li><a href="#tab5" class="link5">Identify</a></li>
-    </ul>
-    
-    <div class="tab-content">
-    	<div id="tab1" class="tab-active">
-        	<p>Content of Tab 1 </p>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <p>Content of Tab 1 </p>
-            <p>Content of Tab 1 </p>
-            <p>Content of Tab 1 </p>
-            <p>Content of Tab 1 </p>
-        </div>
-        
-        <div id="tab2" class="tab">
-        	<iframe src="http://localhost/Tryouts/IBEIS/first.php" style="border:none" width="100%" height="100%"></iframe>
-        </div>
-        
-        <div id="tab3" class="tab">
-        	<iframe src="http://localhost/Tryouts/IBEIS/group.php" style="border:none" width="100%" height="100%"></iframe>
-        </div>
-        
-        <div id="tab4" class="tab">
-        	<iframe src="Detect.html" style="border:none" width="100%" height="100%"></iframe>
-        </div> 
-        
-        <div id="tab5" class="tab">
-        	<iframe src="Identify.html"  style="border:none" width="100%" height="100%"></iframe>
-        </div>   
+  <ul class="tab-links">
+    <li class="active"><a href="#tab1" class="link1">About</a></li>
+    <li><a href="#tab2" class="link2">Import</a></li>
+    <li><a href="#tab3" class="link3">Group</a></li>
+    <li><a href="#tab4" class="link4">Detect</a></li>
+    <li><a href="#tab5" class="link5">Identify</a></li>
+  </ul>
+  <div class="tab-content">
+    <div id="tab1" class="tab-active">
+    	<p style="font-size:18px;color:#5D5D5D" align="center"> This tool helps you in uploading your sightings into IBEIS database. Its a simple five step process, in the order shown below, </p>
+        <table cellpadding="5px" align="center" style="text-align:center;color:#5D5D5D">
+        	<tr>
+            	<td> <img src="About Icons/one.jpg" height="100" width="100" /></td>
+                <td> Upload your images </td>
+            	<td> <img src="About Icons/import-icon.jpg" height="130" width="130"/></td>
+            </tr>
+            <tr>
+            	<td> <img src="About Icons/two.jpg" height="100" width="100" /></td>
+                <td> Group your images based on the location</td>
+            	<td><img src="About Icons/sticker-animaux-de-la-jungle-269764.jpg" height="130" width="130" /></td>
+            </tr>
+            <tr>
+            	<td> <img src="About Icons/three.jpg" height="100" width="100" /></td>
+                <td> Detect your species of interest</td>
+            	<td><img src="About Icons/images.jpg" height="130" width="130"/></td>
+            </tr>
+            <tr>
+            	<td> <img src="About Icons/four.jpg" height="100" width="100" /></td>
+                <td> Identify the species that was already sighted</td>
+            	<td><img src="About Icons/download.jpg" height="130" width="130"/></td>
+            </tr>
+            <tr>
+            	<td> <img src="About Icons/five.jpg" height="100" width="100" /></td>
+                <td> Finally save it into the IBEIS database</td>
+            	<td><img src="About Icons/images (1).jpg" height="130" width="130"/></td>
+            </tr>
+         </table>
     </div>
+    <div id="tab2" class="tab">
+      <iframe src="http://localhost/Tryouts/IBEIS/first.php" style="border:none" width="100%" height="100%" scrolling="no"></iframe>
+    </div>
+    <div id="tab3" class="tab">
+      <iframe src="group.html" scrolling="no" width="100%" height="100%" style="border:none" scrolling="no"> </iframe>
+    </div>
+    <div id="tab4" class="tab">
+      <iframe src="Detect.html" scrolling="no" width="100%" height="100%" style="border:none" scrolling="no"> </iframe>
+    </div>
+    <div id="tab5" class="tab">
+      <iframe src="Identify.html" scrolling="no" width="100%" height="100%" style="border:none"scrolling="no"> </iframe>
+    </div>
+  </div>
 </div>
-
 </body>
 </html>

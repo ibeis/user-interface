@@ -155,7 +155,7 @@ li.active a
 	margin-left:30px;
 	border-radius:3px;	
 	background:#fff;
-	width:95%;	
+	width:1281px;	
 }
 
 .tab
@@ -172,35 +172,64 @@ li.active a
 {
 	border:2px solid #53A9FF;
 	border-radius:3px;
+	width:1279px;
 }
 
 #tab2
 {
 	border:2px solid #6CFF6C;
 	border-radius:3px;
+	width:1279px;
+	height:750px;
 }
 
 #tab3
 {
 	border:2px solid #FFFF33;
 	border-radius:3px;	
+	width:1279px;
+	height:700px;
 }
 
 #tab4
 {
 	border: 2px solid #FF8040;	
 	border-radius:3px;
-	height:1000px;
+	width:1279px;
+	height:750px;
 }
 
 #tab5
 {
 	border: 2px solid #BA75FF;	
 	border-radius:3px;
+	width:1279px;
+	height:1100px;
 }
 
 #logo
 {
 	margin-left:30px;
-	margin-top:-5px;	
+	margin-top:0px;	
+}
+
+#contact
+{
+	text-align:right;
+	margin-right:25px;
+	margin-top:-10px;	
+}
+
+#contactPage
+{
+	background-color:#FFFFFF;
+	border-bottom:2px solid #BA75FF;
+	border-left:2px solid #FF8040;
+	border-right:2px solid #6CFF6C;
+	border-top:2px solid #53A9FF;
+	border-radius:3px;
+	width:1257px;
+	margin-left:30px;
+	text-align:start;
+	padding:10px;
 }
